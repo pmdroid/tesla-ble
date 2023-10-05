@@ -1,0 +1,24 @@
+{
+  "name": "TeslaBLE",
+  "version": "1.0.0",
+  "description": "Library for communicating with Tesla vehicles directly using the BLE API",
+  "keywords": "tesla, ble",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmdroid/tesla-ble.git"
+  },
+  "authors": [
+    {
+      "name": "Pascal M",
+      "email": "me@pascal.sh",
+      "url": "https://pascal.sh",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/pmdroid/tesla-ble/wiki",
+  "frameworks": "*",
+  "platforms": [
+    "espidf"
+  ]
+}
