@@ -161,7 +161,7 @@ bool connectToCar() {
     return false;
   }
 
-  if (readCharacteristic->subscribe(false, notifyCB)) {
+  if (!readCharacteristic->subscribe(false, notifyCB)) {
     ESP_LOGE(TAG, "Failed to subscribe to characteristic UUID: %s",
              readUUID.toString().c_str());
     return false;
