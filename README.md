@@ -1,3 +1,10 @@
+
+## Deprecation Notice
+
+**This project is no longer maintained and has been deprecated.**
+
+For an updated and supported implementation of the Tesla vehicle command library that supports sending commands to the car, please refer to the new project: [Tesla Vehicle Command](https://github.com/pmdroid/tesla-vehicle-command).
+
 # CPPTeslaBLE
 This CPP library facilitates direct communication with Tesla vehicles via the BLE API. It offers fundamental features such as unlocking/locking, opening the trunk, and more. The library's capabilities are contingent on the range of actions implemented by Tesla, which is the only limitation at present.
 
@@ -16,3 +23,4 @@ make
 
 # IMPORTANT
 Please take note that this library does not have official backing from Tesla, and its operational capabilities may be discontinued without prior notice. It's essential to recognize that this library retains private keys and other sensitive data on your device without encryption. I would like to stress that I assume no liability for any possible (although highly unlikely) harm that may befall your vehicle.
+
